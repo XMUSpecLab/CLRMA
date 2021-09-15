@@ -88,6 +88,6 @@ SQ = sum(Q(1:snum)); IQ = sum(Q) - SQ; SIRQ = SQ/IQ;
 SL = sum(L(1:snum)); IL = sum(L) - SL; SIRL = SL/IL;
 
 figure;
-subplot(2,2,1); plot(F,L); title(['Raw, SIR= ',num2str(SIRL)]);
-subplot(2,2,2); plot(F,P); title(['CLRMA, SIR= ',num2str(SIRP)]);
-subplot(2,2,3); plot(F,Q); title(['ALRMA, SIR= ',num2str(SIRQ)]);
+subplot(2,2,1); plot(F,L); xlabel('Normalized frequency'); title(['Raw, SIR= ',num2str(SIRL)]);
+subplot(2,2,2); plot(F,P); xlabel('Normalized frequency'); title(['CLRMA, SIR= ',num2str(SIRP)]);
+subplot(2,2,3); plot(F,Q); xlabel('Normalized frequency'); title(['ALRMA, SIR= ',num2str(SIRQ)]);
