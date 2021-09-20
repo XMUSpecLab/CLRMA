@@ -10,9 +10,9 @@ All the '.m'  and '.mat' files should be included in the same folder when you ru
 
 # File descriptions  
 
-ALRMA.m------Adaptive low-rank matrix approximation for hypersepctral signal extraction  
+ALRMA.m------Adaptive low-rank matrix approximation for hyperspectral signal extraction  
 
-CLRMA.m------Collaborative low-rank matrix approximation for hyperspextral signal extraction  
+CLRMA.m------Collaborative low-rank matrix approximation for hyperspectral signal extraction  
 
 despike1.m---1-D spike removal method  
 
